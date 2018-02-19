@@ -195,3 +195,9 @@ WalletView *WalletFrame::currentWalletView()
     return qobject_cast<WalletView*>(walletStack->currentWidget());
 }
 
+void WalletFrame::printPaperWallets()
+{
+    WalletView *walletView = currentWalletView();
+    if (walletView)
+        walletView->printPaperWallets();
+}

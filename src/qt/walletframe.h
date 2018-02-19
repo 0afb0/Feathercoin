@@ -78,6 +78,8 @@ public Q_SLOTS:
     void usedSendingAddresses();
     /** Show used receiving addresses */
     void usedReceivingAddresses();
+    /** Open the print paper wallets dialog **/
+    void printPaperWallets();
 };
 
 #endif // BITCOIN_QT_WALLETFRAME_H
